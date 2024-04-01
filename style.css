@@ -1,0 +1,27 @@
+body{
+    background: radial-gradient(circle, rgba(197,255,120,1) 0%, rgba(240,0,154,1) 50%, rgba(175,133,254,1) 100%);
+}
+h1{
+    color:	rgb(40, 40, 43);
+    
+}
+#showsketch{
+    float:right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px grey;}
+    to{box-shadow:1px 1px 38px white;}
+}
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
